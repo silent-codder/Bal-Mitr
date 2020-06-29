@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="7dp"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="@drawable/txt_bg"
+        android:text="बाल मित्र"/>
+    <ScrollView
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:padding="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="2">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/mulakshare"
+            android:text="मुळाक्षरे"
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/anklipi"
+            android:text="अंकलिपी "
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+
+</TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/animals"
+            android:text="प्राणी"
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/birds"
+            android:text="पक्षी"
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/color"
+            android:text="रंग"
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/shape"
+            android:text="आकार"
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/flower"
+            android:text="फूल"
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/fruit"
+            android:text="फळे"
+            android:layout_margin="5dp"
+            android:background="@drawable/txt_bg"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+
+    </TableRow>
+    </TableLayout>
+
+    </ScrollView>
+</RelativeLayout>
