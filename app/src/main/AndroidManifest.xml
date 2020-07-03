@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mulakshare"></activity>
+        <activity android:name=".Prani"></activity>
+        <activity android:name=".Anklipi3" />
+        <activity android:name=".Anklipi2" />
+        <activity android:name=".Anklipi" />
+        <activity android:name=".Mulakshare" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

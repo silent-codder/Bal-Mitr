@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Anklipi3">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+
+        <TableLayout
+            android:padding="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="3">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२१"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि १"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="एकवीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२२"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि २"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="बावीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२३"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि ३"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="तेवीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२४"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि ४"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="चोवीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२५"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि ५"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="पंचवीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२६"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि ६"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="सहवीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२७"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि ७"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="सत्तावीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२८"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि ८"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="अठ्ठावीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="२९"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि ९"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="एकोणतीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:text="३०"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="२० नि १०"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:text="तीस"
+                    android:padding="10dp"
+                    android:textSize="25dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="20dp"
+                    android:layout_weight="2"/>
+
+
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+</LinearLayout>
