@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Prani"></activity>
+        <activity android:name=".phale"></activity>
+        <activity android:name=".pakshi" />
+        <activity android:name=".Phule" />
+        <activity android:name=".Prani" />
         <activity android:name=".Anklipi3" />
         <activity android:name=".Anklipi2" />
         <activity android:name=".Anklipi" />

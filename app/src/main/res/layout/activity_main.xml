@@ -88,36 +88,36 @@
             android:layout_weight="1"/>
 
     </TableRow>
-    <TableRow
-        android:id="@+id/tableRow3"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" >
+<!--    <TableRow-->
+<!--        android:id="@+id/tableRow3"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1" >-->
 
-        <TextView
-            android:id="@+id/color"
-            android:text="रंग"
-            android:layout_margin="5dp"
-            android:background="@drawable/txt_bg"
-            android:gravity="center"
-            android:textSize="40dp"
-            android:textStyle="bold"
-            android:layout_width="40dp"
-            android:layout_height="200dp"
-            android:layout_weight="1"/>
-        <TextView
-            android:id="@+id/shape"
-            android:text="आकार"
-            android:layout_margin="5dp"
-            android:background="@drawable/txt_bg"
-            android:gravity="center"
-            android:textSize="40dp"
-            android:textStyle="bold"
-            android:layout_width="40dp"
-            android:layout_height="200dp"
-            android:layout_weight="1"/>
+<!--        <TextView-->
+<!--            android:id="@+id/color"-->
+<!--            android:text="रंग"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/txt_bg"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="40dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:layout_weight="1"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/shape"-->
+<!--            android:text="आकार"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/txt_bg"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="40dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:layout_weight="1"/>-->
 
-    </TableRow>
+<!--    </TableRow>-->
     <TableRow
         android:id="@+id/tableRow4"
         android:layout_width="fill_parent"
@@ -126,7 +126,7 @@
 
         <TextView
             android:id="@+id/flower"
-            android:text="फूल"
+            android:text="फूले"
             android:layout_margin="5dp"
             android:background="@drawable/txt_bg"
             android:gravity="center"

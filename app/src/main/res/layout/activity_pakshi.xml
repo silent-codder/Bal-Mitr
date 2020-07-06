@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Prani">
+    tools:context=".pakshi">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="प्राणी"
+        android:text="पक्षी"
         android:gravity="center"
-        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/txt_bg"
         android:padding="10dp"
@@ -32,36 +32,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:orientation="vertical">
-
-               <ImageView
-                   android:id="@+id/cow"
-                   android:src="@drawable/cow"
-                   android:layout_marginTop="10dp"
-                   android:layout_width="320dp"
-                   android:layout_height="320dp"
-                   android:layout_gravity="center"/>
-               <TextView
-                   android:layout_width="320dp"
-                   android:layout_height="wrap_content"
-                   android:text="गाई"
-                   android:textStyle="bold"
-                   android:layout_gravity="center"
-                   android:gravity="center"
-                   android:textSize="30dp"/>
-           </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_marginLeft="20dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/bear"
-                    android:src="@drawable/bear"
+                    android:id="@+id/chimani"
+                    android:src="@drawable/chimani"
                     android:layout_marginTop="10dp"
                     android:layout_width="320dp"
                     android:layout_height="320dp"
@@ -69,7 +47,7 @@
                 <TextView
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:text="अस्वल"
+                    android:text="चिमणी"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -82,8 +60,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/camel"
-                    android:src="@drawable/camel"
+                    android:id="@+id/bgala"
+                    android:src="@drawable/bgala"
                     android:layout_marginTop="10dp"
                     android:layout_width="320dp"
                     android:layout_height="320dp"
@@ -91,7 +69,7 @@
                 <TextView
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:text="उंट"
+                    android:text="बगळा"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -104,8 +82,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/deear"
-                    android:src="@drawable/deear"
+                    android:id="@+id/garud"
+                    android:src="@drawable/garud"
                     android:layout_marginTop="10dp"
                     android:layout_width="320dp"
                     android:layout_height="320dp"
@@ -113,7 +91,7 @@
                 <TextView
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:text="हरिण"
+                    android:text="गरुड"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -126,8 +104,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/elephant"
-                    android:src="@drawable/elephant"
+                    android:id="@+id/hans"
+                    android:src="@drawable/hans"
                     android:layout_marginTop="10dp"
                     android:layout_width="320dp"
                     android:layout_height="320dp"
@@ -135,7 +113,7 @@
                 <TextView
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:text="हत्ती"
+                    android:text="हंस"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -148,8 +126,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/horse"
-                    android:src="@drawable/horse"
+                    android:id="@+id/kavala"
+                    android:src="@drawable/kavala"
                     android:layout_marginTop="10dp"
                     android:layout_width="320dp"
                     android:layout_height="320dp"
@@ -157,7 +135,7 @@
                 <TextView
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:text="घोडा"
+                    android:text="कावळा"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -170,8 +148,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/lion"
-                    android:src="@drawable/lion"
+                    android:id="@+id/kombda"
+                    android:src="@drawable/kombda"
                     android:layout_marginTop="10dp"
                     android:layout_width="320dp"
                     android:layout_height="320dp"
@@ -179,7 +157,7 @@
                 <TextView
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:text="सिंह"
+                    android:text="कोंबडा"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -192,8 +170,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/rabbit"
-                    android:src="@drawable/rabbit"
+                    android:id="@+id/mor"
+                    android:src="@drawable/mor"
                     android:layout_marginTop="10dp"
                     android:layout_width="320dp"
                     android:layout_height="320dp"
@@ -201,59 +179,15 @@
                 <TextView
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:text="ससा"
+                    android:text="मोर"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:textSize="30dp"/>
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginLeft="20dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/tiger"
-                    android:src="@drawable/tiger"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="320dp"
-                    android:layout_height="320dp"
-                    android:layout_gravity="center"/>
-                <TextView
-                    android:layout_width="320dp"
-                    android:layout_height="wrap_content"
-                    android:text="वाघ"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="30dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginLeft="20dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/zebra"
-                    android:src="@drawable/zebra"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="320dp"
-                    android:layout_height="320dp"
-                    android:layout_gravity="center"/>
-                <TextView
-                    android:layout_width="320dp"
-                    android:layout_height="wrap_content"
-                    android:text="झेब्रा"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="30dp"/>
-            </LinearLayout>
-
 
         </LinearLayout>
 
     </HorizontalScrollView>
-</RelativeLayout>
+
+</LinearLayout>
